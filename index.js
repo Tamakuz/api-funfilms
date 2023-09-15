@@ -18,7 +18,6 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("Api Connected");
 });
-app.use("/api", router);
 
 app.listen(port, () => {
   console.log(`Server berjalan di http://localhost:${port}`);
